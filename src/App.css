@@ -1,0 +1,15 @@
+.all-memes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .meme-card {
+    margin: 25px;
+  }
+  
+  .edit-url-image{
+     height: 300px;
+     /* width: 150px;  */
+  }
+  
