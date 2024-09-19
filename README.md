@@ -220,7 +220,30 @@ const Text = () => {
 
 export default Text;
 ```
-
+# Now we want a button to save the editable button
+we add a save button at the the edit.jsx page
+- for the save image on local drive we use a react lib "react-component-export-image"
+- for install this lib
+`npm i react-component-export-image`
   
+after this , in which lib , we use exportComponentAsJPEG 
+- for export first we make a reference using recat lib "createRef"
+and make a reference of select meames
+and using exportComponentAsJPEG we download
+ the meame 
+ ```js
+ import { createRef } from 'react';
+const memeRef = createRef();
+ // pass the ref to meme
+    <div ref={memeRef}>
+    </div> 
+```
+ - use the xportComponentAsJPEG 
+ in b/w save button we use this
+```jsx
+
+ <Button className= 'btn' variant='sucess' onClick={(e) => exportComponentAsJPEG(memeRef)}>Save To Meme</Button>
+
+ ```
 
 

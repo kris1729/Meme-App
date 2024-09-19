@@ -12,4 +12,9 @@
      height: 300px;
      /* width: 150px;  */
   }
-  
+  .btn{
+    margin: 5px;
+  }
+.save{
+    background-color: rgb(14, 197, 14);
+}
